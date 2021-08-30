@@ -7,10 +7,14 @@
     <title>Full Cycle</title>
 
     <link rel="stylesheet" href="src/reset.css">
+    <link rel="stylesheet" href="src/mobile-nav.css">
     <link rel="stylesheet" href="dist/style.css">
 
 </head>
 <body>
+
+    <div class="mobile-overlay"></div>
+
     <div class="bg-text">
         <p>FULL-CYCLE EVENT AGENCY FULL-CYCLE EVENT AGENCY</p>
         <p>FULL-CYCLE EVENT AGENCY FULL-CYCLE EVENT AGENCY</p>
@@ -40,14 +44,64 @@
                         
                     
                 </div>
-    
-                <div class="main-header__logo">
-                    <a href="#">
-                        LOGO
-                    </a>
+                <div class="logo_wrapper">
+                    <div class="main-header__logo">
+                        <a href="#">
+                            LOGO
+                        </a>
+                    </div>
+                </div>
+                
+
+                <div class="mobile-nav_btn">
+                    <span class="burger__line"></span>
+                    
+                    <span class="burger__line"></span>
                 </div>
 
             </div>
+
+
+
+            <div class="mobile-nav">
+                <div class="mobile-nav_top">
+
+                    <div class="mobile__close-btn">
+                        <span class="close_btn__line">
+                            
+                        </span>
+                        <span class="close_btn__line">
+            
+                        </span>
+                    </div>
+
+                </div>
+    
+
+                <div class="mobile-nav_middle">
+                    <ul class="mobile-links">
+                        <li><a href="#" class="mobile-link__name">where?</a></li>
+                        <li><a href="#" class="mobile-link__name">who?</a></li>
+                        <li><a href="#" class="mobile-link__name">what?</a></li>
+                        
+                    </ul>
+                </div>
+    
+
+                <div class="mobile-nav_bottom">
+                    <div class="logo_wrapper">
+                        <div class="main-header__logo">
+                            <a href="#">
+                                LOGO
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
     
             <div class="main-middle">
                 <a href="#" class="main-middle_where">where?</a>
@@ -77,5 +131,6 @@
 
 
     <script src="src/main.js"></script>
+    <script src="src/adaptMenu.js"></script>
 </body>
 </html>

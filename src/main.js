@@ -4,6 +4,6 @@ window.addEventListener('mousemove', (e)=>{
     let x = e.clientX / window.innerWidth;
     let y = e.clientY / window.innerHeight;
 
-    text.style.transform = 'translateY(' + y * 20 + 'px) translateX('+ x * 50 + 'px)';
+    text.style.transform = 'translateY(' + y * 50 + 'px) translateX('+ x * 20 + 'px)';
     text.style.transition = 'transform ease';
 });
